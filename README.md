@@ -12,10 +12,10 @@ python PISAMD.py -m 1
 
 ### Prerequisites
  
-miniconda
-Python = 3.7.13
-Gromacs 2019.6
-Gaussian 16
+miniconda  
+Python = 3.7.13  
+Gromacs 2019.6  
+Gaussian 16  
  
 You're better to create a virtual environment by miniconda 
  
