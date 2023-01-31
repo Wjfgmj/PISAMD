@@ -1,34 +1,29 @@
 # Project Title
  
-PISAMD
+PISAMD: The supporting software for the molcular dynamic simulation of the polymerization-induced self-assembly.
  
 ## Getting Started
  
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
- 
+```
+python PISAMD.py -m 1
+```
+
+-m 1: The polymerization mothed is RAFT, other methods are under development.
+
 ### Prerequisites
  
-What things you need to install the software and how to install them
+miniconda
+Python = 3.7.13
+Gromacs 2019.6
+Gaussian 16
  
-```
-Give examples
-```
+You're better to create a virtual environment by miniconda 
  
 ### Installing
- 
-A step by step series of examples that tell you how to get a development env running
- 
-Say what the step will be
- 
+
 ```
-Give the example
+conda install --yes --file requirements.txt
 ```
- 
-And repeat
- 
-```
-until finished
-```
- 
-End with an example of getting some data out of the system or using it for a little demo
+
+The model folder contains the molecular files required for the PISAMD of the PGMA-b-PHPMA system.
 
