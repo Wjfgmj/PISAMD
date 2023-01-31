@@ -1,0 +1,54 @@
+ ***** Statistical information of derived bond types:
+
+    1  Type: c3-c3  Times of evaluations:     1
+ Avg, min, max of k:       462.41      462.41      462.41 kcal/mol/A^2
+ Avg, min, max of r0:    1.516707    1.516707    1.516707 Angstrom
+
+    2  Type: c3-hc  Times of evaluations:     3
+ Avg, min, max of k:       696.07      691.20      698.51 kcal/mol/A^2
+ Avg, min, max of r0:    1.092544    1.092238    1.093143 Angstrom
+
+    3  Type: c3-oh  Times of evaluations:     1
+ Avg, min, max of k:       491.57      491.57      491.57 kcal/mol/A^2
+ Avg, min, max of r0:    1.426761    1.426761    1.426761 Angstrom
+
+    4  Type: c3-h1  Times of evaluations:     2
+ Avg, min, max of k:       654.23      654.23      654.24 kcal/mol/A^2
+ Avg, min, max of r0:    1.099803    1.099799    1.099807 Angstrom
+
+    5  Type: oh-ho  Times of evaluations:     1
+ Avg, min, max of k:      1168.22     1168.22     1168.22 kcal/mol/A^2
+ Avg, min, max of r0:    0.961529    0.961529    0.961529 Angstrom
+ 
+ 
+ ***** Statistical information of derived angle types:
+
+    1  Type: c3-c3-oh  Times of evaluations:     1
+ Avg, min, max of k:       219.10      219.10      219.10 kcal/mol/rad^2
+ Avg, min, max of a0:   107.676   107.676   107.676 degree
+
+    2  Type: c3-c3-h1  Times of evaluations:     2
+ Avg, min, max of k:       136.61      136.52      136.70 kcal/mol/rad^2
+ Avg, min, max of a0:   109.900   109.897   109.903 degree
+
+    3  Type: c3-c3-hc  Times of evaluations:     3
+ Avg, min, max of k:        86.00       84.91       86.95 kcal/mol/rad^2
+ Avg, min, max of a0:   110.423   110.241   110.785 degree
+
+    4  Type: c3-oh-ho  Times of evaluations:     1
+ Avg, min, max of k:       144.56      144.56      144.56 kcal/mol/rad^2
+ Avg, min, max of a0:   108.067   108.067   108.067 degree
+
+    5  Type: oh-c3-h1  Times of evaluations:     2
+ Avg, min, max of k:       115.29      115.11      115.47 kcal/mol/rad^2
+ Avg, min, max of a0:   110.893   110.891   110.894 degree
+
+    6  Type: hc-c3-hc  Times of evaluations:     3
+ Avg, min, max of k:        76.40       70.60       79.47 kcal/mol/rad^2
+ Avg, min, max of a0:   108.502   108.246   108.631 degree
+
+    7  Type: h1-c3-h1  Times of evaluations:     1
+ Avg, min, max of k:        80.86       80.86       80.86 kcal/mol/rad^2
+ Avg, min, max of a0:   107.587   107.587   107.587 degree
+
+ Remind: If you will write the above force constant(s) into bonded_param.dat, the value should be divided by 2

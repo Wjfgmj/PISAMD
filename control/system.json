@@ -1,0 +1,20 @@
+{
+    "Version": "1.0.0",
+
+    "Boxsize": [30.00, 30.00, 30.00],
+    "Temperature": 343,
+    "Pressure": 1.0,
+    "Balance time": 10,
+
+    "CPU": 56,
+    "GPU": 2,
+
+    "Pini_in_macroCTA": 0.2,
+    "PISA": [{"CTA": 0.006, "INI": 0.002, "MA": 0.4947, "MB": 1.2}],
+    
+    "Solvent_CTA": [["alcohol"], [1.0]],
+    "Solvent_PISA": [["water"], [1.0]],
+
+    "Polymerization rate": [{"MA": 0.01, "MB": 0.1}],
+    "Conversion": [{"MA": 0.57, "MB": 0.95}]
+}
